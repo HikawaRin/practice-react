@@ -46,6 +46,7 @@ function MyMainContent() {
     )
 }
 
+// An declarative way
 // ReactDOM.render(
 //     <div>    
 //         <Navbar />
@@ -54,7 +55,28 @@ function MyMainContent() {
 //     document.getElementById("root")
 // )
 
-let h1 = document.createElement("h1");
-h1.appendChild(document.createTextNode("vanilla JS"));
-h1.className = "header";
-document.getElementById("root").appendChild(h1);
+// An imperative way to program
+// (() => { 
+//     let h1 = document.createElement("h1");
+//     h1.appendChild(document.createTextNode("vanilla JS"));
+//     h1.className = "header";
+//     document.getElementById("root").appendChild(h1);
+// })()
+
+// JSX practice: nav bar
+function MyNaviBar() {
+    return (
+        <nav>
+            <h1>website</h1>
+            <ul>
+                <li>Pricing</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    );
+}
+ReactDOM.render(
+    <MyNaviBar />,
+    document.getElementById("root")
+);
