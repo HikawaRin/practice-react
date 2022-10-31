@@ -46,10 +46,15 @@ function MyMainContent() {
     )
 }
 
-ReactDOM.render(
-    <div>    
-        <Navbar />
-        <MyMainContent />
-    </div>,
-    document.getElementById("root")
-)
+// ReactDOM.render(
+//     <div>    
+//         <Navbar />
+//         <MyMainContent />
+//     </div>,
+//     document.getElementById("root")
+// )
+
+let h1 = document.createElement("h1");
+h1.appendChild(document.createTextNode("vanilla JS"));
+h1.className = "header";
+document.getElementById("root").appendChild(h1);
