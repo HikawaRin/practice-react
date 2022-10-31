@@ -99,11 +99,22 @@ function MyMainContent() {
 
 function GetOrderedList() {
     return (
-        <ol>
+        <ul className="nav-items">
             <li>First</li>
             <li>Second</li>
             <li>Third</li>
-        </ol>
+        </ul>
     )
 }
-ReactDOM.render(<GetOrderedList />, document.getElementById("root"))
+
+function Header() {
+    return (
+        <header>
+            <nav className="nav">
+                <i className="fa-brands fa-react" width="40px"></i>
+                <GetOrderedList />
+            </nav>
+        </header>
+    )
+}
+ReactDOM.render(<div><Header /><body>Nothing</body></div>, document.getElementById("root"))
