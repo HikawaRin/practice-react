@@ -82,17 +82,28 @@ function MyMainContent() {
 // );
 
 // section project
-const body = (
-    <div>
-        <i className="fa-brands fa-react" width="40px"></i>
-        <h1>Fun facts about React</h1>
-        <ul>
-            <li>Was first released in 2013</li> 
-            <li>Was originally created by Jordan Walke</li>
-            <li>Has well over 100K stars on Github</li>
-            <li>Is maintained by Facebook</li>
-            <li>Powers thousands of enterprise apps, including mobile apps</li>
-        </ul>
-    </div>
-)
-ReactDOM.render(body, document.getElementById("root"))
+// const body = (
+//     <div>
+//         <i className="fa-brands fa-react" width="40px"></i>
+//         <h1>Fun facts about React</h1>
+//         <ul>
+//             <li>Was first released in 2013</li> 
+//             <li>Was originally created by Jordan Walke</li>
+//             <li>Has well over 100K stars on Github</li>
+//             <li>Is maintained by Facebook</li>
+//             <li>Powers thousands of enterprise apps, including mobile apps</li>
+//         </ul>
+//     </div>
+// )
+// ReactDOM.render(body, document.getElementById("root"))
+
+function GetOrderedList() {
+    return (
+        <ol>
+            <li>First</li>
+            <li>Second</li>
+            <li>Third</li>
+        </ol>
+    )
+}
+ReactDOM.render(<GetOrderedList />, document.getElementById("root"))
