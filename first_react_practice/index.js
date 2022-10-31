@@ -64,19 +64,35 @@ function MyMainContent() {
 // })()
 
 // JSX practice: nav bar
-function MyNaviBar() {
-    return (
-        <nav>
-            <h1>website</h1>
-            <ul>
-                <li>Pricing</li>
-                <li>About</li>
-                <li>Contact</li>
-            </ul>
-        </nav>
-    );
-}
-ReactDOM.render(
-    <MyNaviBar />,
-    document.getElementById("root")
-);
+// function MyNaviBar() {
+//     return (
+//         <nav>
+//             <h1>website</h1>
+//             <ul>
+//                 <li>Pricing</li>
+//                 <li>About</li>
+//                 <li>Contact</li>
+//             </ul>
+//         </nav>
+//     );
+// }
+// ReactDOM.render(
+//     <MyNaviBar />,
+//     document.getElementById("root")
+// );
+
+// section project
+const body = (
+    <div>
+        <i className="fa-brands fa-react" width="40px"></i>
+        <h1>Fun facts about React</h1>
+        <ul>
+            <li>Was first released in 2013</li> 
+            <li>Was originally created by Jordan Walke</li>
+            <li>Has well over 100K stars on Github</li>
+            <li>Is maintained by Facebook</li>
+            <li>Powers thousands of enterprise apps, including mobile apps</li>
+        </ul>
+    </div>
+)
+ReactDOM.render(body, document.getElementById("root"))
