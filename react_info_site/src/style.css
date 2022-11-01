@@ -5,6 +5,8 @@
 body { 
     margin: 0;
     font-family: Inter, sans-serif;
+
+    background-color: #282D35;
 }
 
 nav {
@@ -34,4 +36,40 @@ nav {
 .nav--icon { 
     height: 60px;
     margin-right: 7px;
+}
+
+main { 
+    padding: 57px 27px;
+    color: white;
+
+    background-image: url(./logo.svg);
+    background-repeat: no-repeat;
+    background-position-x: right 75%;
+    background-position-y: center;
+}
+
+.main--title { 
+    margin: 0;
+    font-size: 39px;
+    letter-spacing: -0.05em;
+    font-family: Inter;
+    font-style: normal;
+}
+
+.main--facts { 
+    margin-top: 46px;
+    max-width: 400px;
+}
+
+.main--facts > li { 
+    font-family: Inter;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 19px;
+    padding-block: 10px;
+}
+
+.main--facts > li::marker { 
+    font-size: 1.4rem;
+    color: #61DAFB;
 }
