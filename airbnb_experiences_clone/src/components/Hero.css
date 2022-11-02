@@ -1,0 +1,29 @@
+.hero { 
+    padding: 35px;
+    font-family: 'Poppins';
+}
+
+.hero--photo { 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.hero > h1 { 
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 110%;
+
+    color: #000000;
+}
+
+.hero > p { 
+    max-width: 320px;
+
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 110%;
+
+    color: #222222;
+}
