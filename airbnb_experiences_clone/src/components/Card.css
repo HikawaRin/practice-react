@@ -1,0 +1,30 @@
+@import "../index.css" gray, bold;
+
+.card {
+    width: 175px; 
+    height: 300px;
+
+    font-family: 'Poppins';
+    font-weight: 300;
+    font-size: 12px;
+}
+
+.card > img { 
+    width: 100%;
+    border-radius: 9px;
+}
+
+.card--status { 
+    display: flex;
+    align-items: center;
+}
+
+.card--status > i { 
+    color:#FE395C;
+}
+
+.card--rate--number { 
+    line-height: 110%;
+
+    color: #222222;
+}

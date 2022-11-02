@@ -5,3 +5,11 @@
 body { 
   margin: 0;
 }
+
+.gray {
+  color: #918E9B;
+}
+
+.bold {
+  font-weight: bold;
+}
