@@ -4,7 +4,7 @@ import './Card.css';
 const bulletChar = '\u2022';
 
 function Card(props) { 
-    let {coverImg: img, stats: {rating, reviewCount}, location: country, title, price, openSpots} = props.info;
+    let {coverImg: img, stats: {rating, reviewCount}, location: country, title, price, openSpots} = props;
     return (
         <div className="card">
             <img src={img} alt='katie' />
