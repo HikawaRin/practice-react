@@ -60,7 +60,7 @@ function App() {
       <section className='card--list'>
       {
         cards.map((card) => { 
-          return <Card key={card.id} {...card}/>;
+          return <Card key={card.id} {...card} />;
         })
       }
       </section>
