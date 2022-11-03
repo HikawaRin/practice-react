@@ -57,11 +57,13 @@ function App() {
       </header>      
     <main>
       <Hero />
+      <section className='card--list'>
       {
         cards.map((card) => { 
           return <Card key={card.id} info={card}/>;
         })
       }
+      </section>
     </main>
     </div>
   );
