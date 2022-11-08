@@ -1,0 +1,40 @@
+.Navbar { 
+    height: 65px;
+    
+    display: flex;
+    align-items: center;
+
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+}
+
+.Navbar-logo {
+    padding-left: 20px; 
+    display: flex;
+    
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -0.1em;
+
+    color: #FFFFFF;
+}
+
+.Navbar-logo > span {
+    padding-left: 7px;
+}
+
+.Navbar-description {
+    padding-right: 35px;
+    margin-left: auto;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: right;
+
+    color: #FFFFFF;
+}
