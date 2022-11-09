@@ -1,4 +1,7 @@
 .Meme {
+}
+
+.Meme-form {
     display: grid;
     grid-template: 40px 40px / 1fr 1fr;
     gap: 17px;
@@ -29,4 +32,8 @@
     color: #FFFFFF;
     background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
     border-radius: 5px;
+}
+
+.Meme-img {
+    max-width: 100%;
 }
